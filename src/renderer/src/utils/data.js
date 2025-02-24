@@ -1,0 +1,1652 @@
+export const conditions = [
+  {
+    id: '00000001',
+    name: 'Common Cold',
+    description: 'A viral infection affecting the respiratory tract.'
+  },
+  {
+    id: '00000002',
+    name: 'Fever',
+    description: 'Elevated body temperature due to infection or inflammation.'
+  },
+  {
+    id: '00000003',
+    name: 'Hypertension',
+    description: 'Chronic high blood pressure.'
+  },
+  {
+    id: '00000004',
+    name: 'Type 2 Diabetes',
+    description: 'A chronic condition affecting blood sugar levels.'
+  },
+  {
+    id: '00000005',
+    name: 'Acid Reflux',
+    description: 'Stomach acid flowing back into the esophagus.'
+  },
+  {
+    id: '00000006',
+    name: 'Asthma',
+    description: 'Chronic inflammation of airways causing breathing difficulties.'
+  },
+  {
+    id: '00000007',
+    name: 'Migraine',
+    description: 'Severe, recurring headaches often with nausea.'
+  },
+  {
+    id: '00000008',
+    name: 'Allergies',
+    description: 'Immune system reactions to foreign substances.'
+  },
+  {
+    id: '00000009',
+    name: 'Arthritis',
+    description: 'Inflammation of joints causing pain and stiffness.'
+  },
+  {
+    id: '00000010',
+    name: 'Influenza',
+    description: 'A contagious respiratory illness caused by flu viruses.'
+  },
+  {
+    id: '00000011',
+    name: 'Bronchitis',
+    description: 'Inflammation of the bronchial tubes.'
+  },
+  {
+    id: '00000012',
+    name: 'Pneumonia',
+    description: 'Lung infection causing inflammation and fluid buildup.'
+  },
+  {
+    id: '00000013',
+    name: 'UTI',
+    description: 'Urinary Tract Infection caused by bacteria.'
+  },
+  {
+    id: '00000014',
+    name: 'Skin Infection',
+    description: 'Bacterial or fungal infection affecting the skin.'
+  },
+  {
+    id: '00000015',
+    name: 'Sinusitis',
+    description: 'Inflammation of the sinuses causing congestion and pain.'
+  },
+  {
+    id: '00000016',
+    name: 'Cholesterol',
+    description: 'Elevated levels of cholesterol in the blood.'
+  },
+  {
+    id: '00000017',
+    name: 'Osteoporosis',
+    description: 'Weakening of bones making them fragile.'
+  },
+  {
+    id: '00000018',
+    name: 'Depression',
+    description: 'A mental health disorder affecting mood and daily activities.'
+  },
+  {
+    id: '00000019',
+    name: 'Anxiety',
+    description: 'Excessive worry and nervousness.'
+  },
+  {
+    id: '00000020',
+    name: 'Hypothyroidism',
+    description: 'Underactive thyroid gland leading to hormonal imbalance.'
+  },
+  {
+    id: '00000021',
+    name: 'Hyperthyroidism',
+    description: 'Overactive thyroid gland causing increased metabolism.'
+  },
+  {
+    id: '00000022',
+    name: 'Gastritis',
+    description: 'Inflammation of the stomach lining.'
+  },
+  {
+    id: '00000023',
+    name: 'Peptic Ulcer',
+    description: 'Sores that develop on the stomach lining.'
+  },
+  {
+    id: '00000024',
+    name: 'Tuberculosis',
+    description: 'Bacterial infection affecting the lungs.'
+  },
+  {
+    id: '00000025',
+    name: 'Chronic Pain',
+    description: 'Persistent pain lasting for months or years.'
+  },
+  {
+    id: '00000026',
+    name: 'Epilepsy',
+    description: 'Neurological disorder causing seizures.'
+  },
+  {
+    id: '00000027',
+    name: 'Insomnia',
+    description: 'Difficulty in falling or staying asleep.'
+  },
+  {
+    id: '00000028',
+    name: 'Psoriasis',
+    description: 'Chronic skin condition causing red, scaly patches.'
+  },
+  {
+    id: '00000029',
+    name: 'Schizophrenia',
+    description: 'Mental disorder affecting perception and behavior.'
+  },
+  {
+    id: '00000030',
+    name: 'Bipolar Disorder',
+    description: 'Mood disorder with extreme highs and lows.'
+  }
+]
+
+export const pills = [
+  {
+    pill_id: 1,
+    pill_name: 'Paracetamol',
+    quantity: 216,
+    threshold: 50,
+    price: 42.74,
+    weight: 4.44,
+    manufacture_date: '2024-08-26',
+    expiry_date: '2026-03-11',
+    supplier_id: 10,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'Used to reduce fever and alleviate mild to moderate pain.',
+    status: 0
+  },
+  {
+    pill_id: 2,
+    pill_name: 'Ibuprofen',
+    quantity: 485,
+    threshold: 45,
+    price: 22.97,
+    weight: 4.44,
+    manufacture_date: '2024-09-04',
+    expiry_date: '2026-05-26',
+    supplier_id: 9,
+    manufacturer_name: 'Roche',
+    pill_desc: 'An anti-inflammatory drug used to treat pain, fever, and inflammation.',
+    status: 1
+  },
+  {
+    pill_id: 3,
+    pill_name: 'Amoxicillin',
+    quantity: 450,
+    threshold: 40,
+    price: 21.88,
+    weight: 4.44,
+    manufacture_date: '2024-10-25',
+    expiry_date: '2026-03-20',
+    supplier_id: 10,
+    manufacturer_name: 'Novartis',
+    pill_desc: 'A common antibiotic used to treat bacterial infections.',
+    status: 0
+  },
+  {
+    pill_id: 4,
+    pill_name: 'Ciprofloxacin',
+    quantity: 179,
+    threshold: 35,
+    price: 11.3,
+    weight: 4.44,
+    manufacture_date: '2024-09-30',
+    expiry_date: '2026-05-20',
+    supplier_id: 7,
+    manufacturer_name: 'Bayer',
+    pill_desc: 'An antibiotic used for respiratory, urinary, and gastrointestinal infections.',
+    status: 1
+  },
+  {
+    pill_id: 5,
+    pill_name: 'Metformin',
+    quantity: 423,
+    threshold: 50,
+    price: 13.21,
+    weight: 4.44,
+    manufacture_date: '2024-11-01',
+    expiry_date: '2025-08-22',
+    supplier_id: 18,
+    manufacturer_name: 'GSK',
+    pill_desc: 'Primarily used to treat type 2 diabetes and improve blood sugar levels.',
+    status: 0
+  },
+  {
+    pill_id: 6,
+    pill_name: 'Atorvastatin',
+    quantity: 153,
+    threshold: 40,
+    price: 17.88,
+    weight: 4.44,
+    manufacture_date: '2024-09-26',
+    expiry_date: '2026-09-20',
+    supplier_id: 10,
+    manufacturer_name: 'Merck',
+    pill_desc: 'A statin used to lower cholesterol and reduce cardiovascular risks.',
+    status: 0
+  },
+  {
+    pill_id: 7,
+    pill_name: 'Omeprazole',
+    quantity: 248,
+    threshold: 50,
+    price: 33.16,
+    weight: 4.44,
+    manufacture_date: '2024-07-17',
+    expiry_date: '2025-11-25',
+    supplier_id: 9,
+    manufacturer_name: 'Sanofi',
+    pill_desc: 'Reduces stomach acid, commonly used for acid reflux and ulcers.',
+    status: 0
+  },
+  {
+    pill_id: 8,
+    pill_name: 'Losartan',
+    quantity: 30,
+    threshold: 45,
+    price: 43.71,
+    weight: 4.44,
+    manufacture_date: '2024-09-30',
+    expiry_date: '2026-04-18',
+    supplier_id: 19,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'An antihypertensive drug used to treat high blood pressure.',
+    status: 1
+  },
+  {
+    pill_id: 9,
+    pill_name: 'Prednisone',
+    quantity: 25,
+    threshold: 45,
+    price: 8.84,
+    weight: 4.44,
+    manufacture_date: '2024-06-30',
+    expiry_date: '2025-11-04',
+    supplier_id: 7,
+    manufacturer_name: 'Merck',
+    pill_desc: 'A corticosteroid used for inflammation and autoimmune disorders.',
+    status: 1
+  },
+  {
+    pill_id: 10,
+    pill_name: 'Amlodipine',
+    quantity: 10,
+    threshold: 45,
+    price: 40.43,
+    weight: 4.44,
+    manufacture_date: '2024-10-20',
+    expiry_date: '2026-06-24',
+    supplier_id: 10,
+    manufacturer_name: 'AstraZeneca',
+    pill_desc: 'A calcium channel blocker used to treat high blood pressure and angina.',
+    status: 1
+  },
+  {
+    pill_id: 11,
+    pill_name: 'Levothyroxine',
+    quantity: 317,
+    threshold: 15,
+    price: 31.05,
+    weight: 4.44,
+    manufacture_date: '2024-07-30',
+    expiry_date: '2026-06-19',
+    supplier_id: 9,
+    manufacturer_name: 'Amgen',
+    pill_desc: 'A thyroid hormone used to treat hypothyroidism.',
+    status: 1
+  },
+  {
+    pill_id: 12,
+    pill_name: 'Ranitidine',
+    quantity: 454,
+    threshold: 15,
+    price: 11.68,
+    weight: 4.44,
+    manufacture_date: '2024-06-29',
+    expiry_date: '2026-11-28',
+    supplier_id: 12,
+    manufacturer_name: 'Roche',
+    pill_desc: 'Previously used for acid reflux and ulcers; now discontinued in many places.',
+    status: 0
+  },
+  {
+    pill_id: 13,
+    pill_name: 'Clindamycin',
+    quantity: 156,
+    threshold: 15,
+    price: 20.3,
+    weight: 4.44,
+    manufacture_date: '2024-11-16',
+    expiry_date: '2026-07-06',
+    supplier_id: 14,
+    manufacturer_name: 'AbbVie',
+    pill_desc: 'An antibiotic effective against certain bacterial infections.',
+    status: 1
+  },
+  {
+    pill_id: 14,
+    pill_name: 'Azithromycin',
+    quantity: 284,
+    threshold: 10,
+    price: 31.02,
+    weight: 4.44,
+    manufacture_date: '2024-09-30',
+    expiry_date: '2026-12-21',
+    supplier_id: 8,
+    manufacturer_name: 'AstraZeneca',
+    pill_desc: 'A broad-spectrum antibiotic used for respiratory and skin infections.',
+    status: 1
+  },
+  {
+    pill_id: 15,
+    pill_name: 'Gabapentin',
+    quantity: 59,
+    threshold: 15,
+    price: 33.1,
+    weight: 4.44,
+    manufacture_date: '2024-07-09',
+    expiry_date: '2026-04-12',
+    supplier_id: 4,
+    manufacturer_name: 'Roche',
+    pill_desc: 'Used to treat nerve pain and seizures.',
+    status: 0
+  },
+  {
+    pill_id: 16,
+    pill_name: 'Fluoxetine',
+    quantity: 142,
+    threshold: 23,
+    price: 9.51,
+    weight: 4.44,
+    manufacture_date: '2024-08-10',
+    expiry_date: '2026-04-11',
+    supplier_id: 11,
+    manufacturer_name: 'Merck',
+    pill_desc: 'An antidepressant used for major depressive disorder and OCD.',
+    status: 0
+  },
+  {
+    pill_id: 17,
+    pill_name: 'Sertraline',
+    quantity: 168,
+    threshold: 20,
+    price: 35.19,
+    weight: 4.44,
+    manufacture_date: '2024-11-13',
+    expiry_date: '2026-12-20',
+    supplier_id: 4,
+    manufacturer_name: 'GSK',
+    pill_desc: 'An antidepressant for depression, anxiety, and PTSD.',
+    status: 0
+  },
+  {
+    pill_id: 18,
+    pill_name: 'Albuterol',
+    quantity: 114,
+    threshold: 15,
+    price: 10.64,
+    weight: 4.44,
+    manufacture_date: '2024-07-15',
+    expiry_date: '2025-08-30',
+    supplier_id: 13,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'A bronchodilator used to treat asthma and breathing issues.',
+    status: 1
+  },
+  {
+    pill_id: 19,
+    pill_name: 'Cetirizine',
+    quantity: 51,
+    threshold: 15,
+    price: 25.17,
+    weight: 4.44,
+    manufacture_date: '2024-10-17',
+    expiry_date: '2025-06-30',
+    supplier_id: 10,
+    manufacturer_name: 'AbbVie',
+    pill_desc: 'An antihistamine for allergies and hay fever.',
+    status: 1
+  },
+  {
+    pill_id: 20,
+    pill_name: 'Loratadine',
+    quantity: 331,
+    threshold: 20,
+    price: 39.28,
+    weight: 4.44,
+    manufacture_date: '2024-10-13',
+    expiry_date: '2026-06-23',
+    supplier_id: 6,
+    manufacturer_name: 'Roche',
+    pill_desc: 'An antihistamine used to treat allergic symptoms like runny nose.',
+    status: 1
+  },
+  {
+    pill_id: 21,
+    pill_name: 'Doxycycline',
+    quantity: 387,
+    threshold: 25,
+    price: 31.72,
+    weight: 4.44,
+    manufacture_date: '2024-08-23',
+    expiry_date: '2026-11-08',
+    supplier_id: 9,
+    manufacturer_name: 'AstraZeneca',
+    pill_desc: 'An antibiotic used for infections and acne treatment.',
+    status: 1
+  },
+  {
+    pill_id: 22,
+    pill_name: 'Hydrochlorothiazide',
+    quantity: 281,
+    threshold: 30,
+    price: 5.26,
+    weight: 4.44,
+    manufacture_date: '2024-07-29',
+    expiry_date: '2026-08-25',
+    supplier_id: 1,
+    manufacturer_name: 'AbbVie',
+    pill_desc: 'A diuretic used for high blood pressure and fluid retention.',
+    status: 0
+  },
+  {
+    pill_id: 23,
+    pill_name: 'Montelukast',
+    quantity: 110,
+    threshold: 35,
+    price: 12.68,
+    weight: 4.44,
+    manufacture_date: '2024-09-15',
+    expiry_date: '2026-05-10',
+    supplier_id: 15,
+    manufacturer_name: 'Sanofi',
+    pill_desc: 'Used for allergies and preventing asthma attacks.',
+    status: 0
+  },
+  {
+    pill_id: 24,
+    pill_name: 'Pantoprazole',
+    quantity: 95,
+    threshold: 40,
+    price: 18.35,
+    weight: 4.44,
+    manufacture_date: '2024-11-22',
+    expiry_date: '2026-02-28',
+    supplier_id: 17,
+    manufacturer_name: 'GSK',
+    pill_desc: 'Reduces stomach acid; used for GERD.',
+    status: 0
+  },
+  {
+    pill_id: 25,
+    pill_name: 'Methotrexate',
+    quantity: 73,
+    threshold: 15,
+    price: 45.12,
+    weight: 4.44,
+    manufacture_date: '2024-06-19',
+    expiry_date: '2025-11-15',
+    supplier_id: 8,
+    manufacturer_name: 'Novartis',
+    pill_desc: 'Used for rheumatoid arthritis and cancer treatments.',
+    status: 1
+  },
+  {
+    pill_id: 26,
+    pill_name: 'Furosemide',
+    quantity: 210,
+    threshold: 25,
+    price: 7.52,
+    weight: 4.44,
+    manufacture_date: '2024-07-20',
+    expiry_date: '2026-01-30',
+    supplier_id: 14,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'A diuretic for fluid retention and high blood pressure.',
+    status: 0
+  },
+  {
+    pill_id: 27,
+    pill_name: 'Spironolactone',
+    quantity: 144,
+    threshold: 15,
+    price: 23.57,
+    weight: 4.44,
+    manufacture_date: '2024-10-09',
+    expiry_date: '2026-04-25',
+    supplier_id: 2,
+    manufacturer_name: 'Merck',
+    pill_desc: 'Used for heart failure, fluid retention, and acne.',
+    status: 1
+  },
+  {
+    pill_id: 28,
+    pill_name: 'Warfarin',
+    quantity: 128,
+    threshold: 25,
+    price: 29.64,
+    weight: 4.44,
+    manufacture_date: '2024-11-10',
+    expiry_date: '2026-08-10',
+    supplier_id: 3,
+    manufacturer_name: 'Bayer',
+    pill_desc: 'An anticoagulant used to prevent blood clots.',
+    status: 0
+  },
+  {
+    pill_id: 29,
+    pill_name: 'Clopidogrel',
+    quantity: 196,
+    threshold: 20,
+    price: 21.79,
+    weight: 4.44,
+    manufacture_date: '2024-08-14',
+    expiry_date: '2026-07-09',
+    supplier_id: 11,
+    manufacturer_name: 'Sanofi',
+    pill_desc: 'Prevents strokes and heart attacks by thinning blood.',
+    status: 0
+  },
+  {
+    pill_id: 30,
+    pill_name: 'Esomeprazole',
+    quantity: 450,
+    threshold: 40,
+    price: 34.5,
+    weight: 4.44,
+    manufacture_date: '2024-09-26',
+    expiry_date: '2025-12-18',
+    supplier_id: 15,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'A proton-pump inhibitor for GERD and ulcers.',
+    status: 0
+  },
+  {
+    pill_id: 31,
+    pill_name: 'Diazepam',
+    quantity: 37,
+    threshold: 20,
+    price: 19.85,
+    weight: 4.44,
+    manufacture_date: '2024-10-30',
+    expiry_date: '2026-07-30',
+    supplier_id: 10,
+    manufacturer_name: 'Roche',
+    pill_desc: 'Used for anxiety, muscle spasms, and seizures.',
+    status: 1
+  },
+  {
+    pill_id: 32,
+    pill_name: 'Alendronate',
+    quantity: 315,
+    threshold: 20,
+    price: 13.64,
+    weight: 4.44,
+    manufacture_date: '2024-07-17',
+    expiry_date: '2025-11-05',
+    supplier_id: 6,
+    manufacturer_name: 'Amgen',
+    pill_desc: 'Treats and prevents osteoporosis.',
+    status: 0
+  },
+  {
+    pill_id: 33,
+    pill_name: 'Hydroxychloroquine',
+    quantity: 188,
+    threshold: 25,
+    price: 27.13,
+    weight: 4.44,
+    manufacture_date: '2024-09-15',
+    expiry_date: '2026-01-30',
+    supplier_id: 12,
+    manufacturer_name: 'Novartis',
+    pill_desc: 'Used for malaria, lupus, and rheumatoid arthritis.',
+    status: 1
+  },
+  {
+    pill_id: 34,
+    pill_name: 'Citalopram',
+    quantity: 240,
+    threshold: 25,
+    price: 15.94,
+    weight: 4.44,
+    manufacture_date: '2024-11-08',
+    expiry_date: '2026-03-05',
+    supplier_id: 14,
+    manufacturer_name: 'GSK',
+    pill_desc: 'An antidepressant for major depressive disorder.',
+    status: 0
+  },
+  {
+    pill_id: 35,
+    pill_name: 'Zolpidem',
+    quantity: 88,
+    threshold: 15,
+    price: 35.42,
+    weight: 4.44,
+    manufacture_date: '2024-10-13',
+    expiry_date: '2025-12-20',
+    supplier_id: 9,
+    manufacturer_name: 'Sanofi',
+    pill_desc: 'A sedative used for insomnia.',
+    status: 1
+  },
+  {
+    pill_id: 36,
+    pill_name: 'Lorazepam',
+    quantity: 75,
+    threshold: 10,
+    price: 28.53,
+    weight: 4.44,
+    manufacture_date: '2024-09-27',
+    expiry_date: '2026-01-20',
+    supplier_id: 5,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'Treats anxiety disorders and seizures.',
+    status: 1
+  },
+  {
+    pill_id: 37,
+    pill_name: 'Propranolol',
+    quantity: 233,
+    threshold: 35,
+    price: 14.75,
+    weight: 4.44,
+    manufacture_date: '2024-07-14',
+    expiry_date: '2026-09-18',
+    supplier_id: 7,
+    manufacturer_name: 'Bayer',
+    pill_desc: 'Used for high blood pressure, migraines, and anxiety.',
+    status: 0
+  },
+  {
+    pill_id: 38,
+    pill_name: 'Simvastatin',
+    quantity: 302,
+    threshold: 30,
+    price: 22.64,
+    weight: 4.44,
+    manufacture_date: '2024-06-25',
+    expiry_date: '2025-11-10',
+    supplier_id: 13,
+    manufacturer_name: 'AstraZeneca',
+    pill_desc: 'A statin for lowering cholesterol levels.',
+    status: 0
+  },
+  {
+    pill_id: 39,
+    pill_name: 'Duloxetine',
+    quantity: 198,
+    threshold: 15,
+    price: 24.88,
+    weight: 4.44,
+    manufacture_date: '2024-08-20',
+    expiry_date: '2026-07-06',
+    supplier_id: 19,
+    manufacturer_name: 'Eli Lilly',
+    pill_desc: 'Used to treat depression, anxiety, and nerve pain.',
+    status: 0
+  },
+  {
+    pill_id: 40,
+    pill_name: 'Venlafaxine',
+    quantity: 260,
+    threshold: 25,
+    price: 18.11,
+    weight: 4.44,
+    manufacture_date: '2024-07-09',
+    expiry_date: '2026-05-14',
+    supplier_id: 18,
+    manufacturer_name: 'Amgen',
+    pill_desc: 'An antidepressant for major depressive disorder and anxiety.',
+    status: 1
+  },
+  {
+    pill_id: 41,
+    pill_name: 'Lisinopril',
+    quantity: 480,
+    threshold: 50,
+    price: 5.79,
+    weight: 4.44,
+    manufacture_date: '2024-09-11',
+    expiry_date: '2026-11-29',
+    supplier_id: 11,
+    manufacturer_name: 'Merck',
+    pill_desc: 'An ACE inhibitor for high blood pressure.',
+    status: 0
+  },
+  {
+    pill_id: 42,
+    pill_name: 'Rosuvastatin',
+    quantity: 425,
+    threshold: 40,
+    price: 16.95,
+    weight: 4.44,
+    manufacture_date: '2024-08-05',
+    expiry_date: '2026-10-20',
+    supplier_id: 16,
+    manufacturer_name: 'Sanofi',
+    pill_desc: 'Used to lower cholesterol and triglycerides.',
+    status: 0
+  },
+  {
+    pill_id: 43,
+    pill_name: 'Tamsulosin',
+    quantity: 137,
+    threshold: 20,
+    price: 12.5,
+    weight: 4.44,
+    manufacture_date: '2024-09-22',
+    expiry_date: '2026-06-15',
+    supplier_id: 3,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'Used for benign prostatic hyperplasia.',
+    status: 1
+  },
+  {
+    pill_id: 44,
+    pill_name: 'Celecoxib',
+    quantity: 156,
+    threshold: 30,
+    price: 29.13,
+    weight: 4.44,
+    manufacture_date: '2024-08-27',
+    expiry_date: '2026-03-19',
+    supplier_id: 12,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'A COX-2 inhibitor for pain and inflammation.',
+    status: 0
+  },
+  {
+    pill_id: 45,
+    pill_name: 'Varenicline',
+    quantity: 95,
+    threshold: 10,
+    price: 31.44,
+    weight: 4.44,
+    manufacture_date: '2024-07-02',
+    expiry_date: '2025-11-25',
+    supplier_id: 17,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'A smoking cessation aid.',
+    status: 1
+  },
+  {
+    pill_id: 46,
+    pill_name: 'Rivaroxaban',
+    quantity: 70,
+    threshold: 20,
+    price: 35.76,
+    weight: 4.44,
+    manufacture_date: '2024-11-28',
+    expiry_date: '2026-07-30',
+    supplier_id: 5,
+    manufacturer_name: 'Bayer',
+    pill_desc: 'An anticoagulant to prevent blood clots.',
+    status: 1
+  },
+  {
+    pill_id: 47,
+    pill_name: 'Finasteride',
+    quantity: 44,
+    threshold: 25,
+    price: 19.44,
+    weight: 4.44,
+    manufacture_date: '2024-06-18',
+    expiry_date: '2026-01-20',
+    supplier_id: 8,
+    manufacturer_name: 'Merck',
+    pill_desc: 'Used for hair loss and enlarged prostate.',
+    status: 1
+  },
+  {
+    pill_id: 48,
+    pill_name: 'Allopurinol',
+    quantity: 222,
+    threshold: 30,
+    price: 6.53,
+    weight: 4.44,
+    manufacture_date: '2024-08-08',
+    expiry_date: '2026-12-10',
+    supplier_id: 9,
+    manufacturer_name: 'GSK',
+    pill_desc: 'Reduces uric acid for gout treatment.',
+    status: 0
+  },
+  {
+    pill_id: 49,
+    pill_name: 'Methimazole',
+    quantity: 33,
+    threshold: 15,
+    price: 15.22,
+    weight: 4.44,
+    manufacture_date: '2024-07-26',
+    expiry_date: '2025-09-20',
+    supplier_id: 4,
+    manufacturer_name: 'Sanofi',
+    pill_desc: 'Used for hyperthyroidism treatment.',
+    status: 1
+  },
+  {
+    pill_id: 50,
+    pill_name: 'Topiramate',
+    quantity: 280,
+    threshold: 20,
+    price: 23.8,
+    weight: 4.44,
+    manufacture_date: '2024-11-03',
+    expiry_date: '2026-10-18',
+    supplier_id: 6,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'Used for seizures and migraine prevention.',
+    status: 0
+  }
+]
+
+export const crudPills = [
+  {
+    pill_id: 1,
+    pill_name: 'Paracetamol',
+    quantity: 216,
+    threshold: 50,
+    price: 42.74,
+    weight: 4.44,
+    manufacture_date: '2024-08-26',
+    expiry_date: '2026-03-11',
+    supplier_id: 10,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'Used to reduce fever and alleviate mild to moderate pain.',
+    status: 0
+  },
+  {
+    pill_id: 2,
+    pill_name: 'Ibuprofen',
+    quantity: 485,
+    threshold: 45,
+    price: 22.97,
+    weight: 4.44,
+    manufacture_date: '2024-09-04',
+    expiry_date: '2026-05-26',
+    supplier_id: 9,
+    manufacturer_name: 'Roche',
+    pill_desc: 'An anti-inflammatory drug used to treat pain, fever, and inflammation.',
+    status: 1
+  },
+  {
+    pill_id: 3,
+    pill_name: 'Amoxicillin',
+    quantity: 450,
+    threshold: 40,
+    price: 21.88,
+    weight: 4.44,
+    manufacture_date: '2024-10-25',
+    expiry_date: '2026-03-20',
+    supplier_id: 10,
+    manufacturer_name: 'Novartis',
+    pill_desc: 'A common antibiotic used to treat bacterial infections.',
+    status: 0
+  },
+  {
+    pill_id: 4,
+    pill_name: 'Ciprofloxacin',
+    quantity: 179,
+    threshold: 35,
+    price: 11.3,
+    weight: 4.44,
+    manufacture_date: '2024-09-30',
+    expiry_date: '2026-05-20',
+    supplier_id: 7,
+    manufacturer_name: 'Bayer',
+    pill_desc: 'An antibiotic used for respiratory, urinary, and gastrointestinal infections.',
+    status: 1
+  },
+  {
+    pill_id: 5,
+    pill_name: 'Metformin',
+    quantity: 423,
+    threshold: 50,
+    price: 13.21,
+    weight: 4.44,
+    manufacture_date: '2024-11-01',
+    expiry_date: '2025-08-22',
+    supplier_id: 18,
+    manufacturer_name: 'GSK',
+    pill_desc: 'Primarily used to treat type 2 diabetes and improve blood sugar levels.',
+    status: 0
+  },
+  {
+    pill_id: 6,
+    pill_name: 'Atorvastatin',
+    quantity: 153,
+    threshold: 40,
+    price: 17.88,
+    weight: 4.44,
+    manufacture_date: '2024-09-26',
+    expiry_date: '2026-09-20',
+    supplier_id: 10,
+    manufacturer_name: 'Merck',
+    pill_desc: 'A statin used to lower cholesterol and reduce cardiovascular risks.',
+    status: 0
+  },
+  {
+    pill_id: 7,
+    pill_name: 'Omeprazole',
+    quantity: 248,
+    threshold: 50,
+    price: 33.16,
+    weight: 4.44,
+    manufacture_date: '2024-07-17',
+    expiry_date: '2025-11-25',
+    supplier_id: 9,
+    manufacturer_name: 'Sanofi',
+    pill_desc: 'Reduces stomach acid, commonly used for acid reflux and ulcers.',
+    status: 0
+  },
+  {
+    pill_id: 8,
+    pill_name: 'Losartan',
+    quantity: 30,
+    threshold: 45,
+    price: 43.71,
+    weight: 4.44,
+    manufacture_date: '2024-09-30',
+    expiry_date: '2026-04-18',
+    supplier_id: 19,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'An antihypertensive drug used to treat high blood pressure.',
+    status: 1
+  },
+  {
+    pill_id: 9,
+    pill_name: 'Prednisone',
+    quantity: 25,
+    threshold: 45,
+    price: 8.84,
+    weight: 4.44,
+    manufacture_date: '2024-06-30',
+    expiry_date: '2025-11-04',
+    supplier_id: 7,
+    manufacturer_name: 'Merck',
+    pill_desc: 'A corticosteroid used for inflammation and autoimmune disorders.',
+    status: 1
+  },
+  {
+    pill_id: 10,
+    pill_name: 'Amlodipine',
+    quantity: 10,
+    threshold: 45,
+    price: 40.43,
+    weight: 4.44,
+    manufacture_date: '2024-10-20',
+    expiry_date: '2026-06-24',
+    supplier_id: 10,
+    manufacturer_name: 'AstraZeneca',
+    pill_desc: 'A calcium channel blocker used to treat high blood pressure and angina.',
+    status: 1
+  },
+  {
+    pill_id: 11,
+    pill_name: 'Levothyroxine',
+    quantity: 317,
+    threshold: 15,
+    price: 31.05,
+    weight: 4.44,
+    manufacture_date: '2024-07-30',
+    expiry_date: '2026-06-19',
+    supplier_id: 9,
+    manufacturer_name: 'Amgen',
+    pill_desc: 'A thyroid hormone used to treat hypothyroidism.',
+    status: 1
+  },
+  {
+    pill_id: 12,
+    pill_name: 'Ranitidine',
+    quantity: 454,
+    threshold: 15,
+    price: 11.68,
+    weight: 4.44,
+    manufacture_date: '2024-06-29',
+    expiry_date: '2026-11-28',
+    supplier_id: 12,
+    manufacturer_name: 'Roche',
+    pill_desc: 'Previously used for acid reflux and ulcers; now discontinued in many places.',
+    status: 0
+  },
+  {
+    pill_id: 13,
+    pill_name: 'Clindamycin',
+    quantity: 156,
+    threshold: 15,
+    price: 20.3,
+    weight: 4.44,
+    manufacture_date: '2024-11-16',
+    expiry_date: '2026-07-06',
+    supplier_id: 14,
+    manufacturer_name: 'AbbVie',
+    pill_desc: 'An antibiotic effective against certain bacterial infections.',
+    status: 1
+  },
+  {
+    pill_id: 14,
+    pill_name: 'Azithromycin',
+    quantity: 284,
+    threshold: 10,
+    price: 31.02,
+    weight: 4.44,
+    manufacture_date: '2024-09-30',
+    expiry_date: '2026-12-21',
+    supplier_id: 8,
+    manufacturer_name: 'AstraZeneca',
+    pill_desc: 'A broad-spectrum antibiotic used for respiratory and skin infections.',
+    status: 1
+  },
+  {
+    pill_id: 15,
+    pill_name: 'Gabapentin',
+    quantity: 59,
+    threshold: 15,
+    price: 33.1,
+    weight: 4.44,
+    manufacture_date: '2024-07-09',
+    expiry_date: '2026-04-12',
+    supplier_id: 4,
+    manufacturer_name: 'Roche',
+    pill_desc: 'Used to treat nerve pain and seizures.',
+    status: 0
+  },
+  {
+    pill_id: 16,
+    pill_name: 'Fluoxetine',
+    quantity: 142,
+    threshold: 23,
+    price: 9.51,
+    weight: 4.44,
+    manufacture_date: '2024-08-10',
+    expiry_date: '2026-04-11',
+    supplier_id: 11,
+    manufacturer_name: 'Merck',
+    pill_desc: 'An antidepressant used for major depressive disorder and OCD.',
+    status: 0
+  },
+  {
+    pill_id: 17,
+    pill_name: 'Sertraline',
+    quantity: 168,
+    threshold: 20,
+    price: 35.19,
+    weight: 4.44,
+    manufacture_date: '2024-11-13',
+    expiry_date: '2026-12-20',
+    supplier_id: 4,
+    manufacturer_name: 'GSK',
+    pill_desc: 'An antidepressant for depression, anxiety, and PTSD.',
+    status: 0
+  },
+  {
+    pill_id: 18,
+    pill_name: 'Albuterol',
+    quantity: 114,
+    threshold: 15,
+    price: 10.64,
+    weight: 4.44,
+    manufacture_date: '2024-07-15',
+    expiry_date: '2025-08-30',
+    supplier_id: 13,
+    manufacturer_name: 'Pfizer',
+    pill_desc: 'A bronchodilator used to treat asthma and breathing issues.',
+    status: 1
+  },
+  {
+    pill_id: 19,
+    pill_name: 'Cetirizine',
+    quantity: 51,
+    threshold: 15,
+    price: 25.17,
+    weight: 4.44,
+    manufacture_date: '2024-10-17',
+    expiry_date: '2025-06-30',
+    supplier_id: 10,
+    manufacturer_name: 'AbbVie',
+    pill_desc: 'An antihistamine for allergies and hay fever.',
+    status: 1
+  },
+  {
+    pill_id: 20,
+    pill_name: 'Loratadine',
+    quantity: 331,
+    threshold: 20,
+    price: 39.28,
+    weight: 4.44,
+    manufacture_date: '2024-10-13',
+    expiry_date: '2026-06-23',
+    supplier_id: 6,
+    manufacturer_name: 'Roche',
+    pill_desc: 'An antihistamine used to treat allergic symptoms like runny nose.',
+    status: 1
+  },
+  {
+    pill_id: 21,
+    pill_name: 'Doxycycline',
+    quantity: 387,
+    threshold: 25,
+    price: 31.72,
+    weight: 4.44,
+    manufacture_date: '2024-08-23',
+    expiry_date: '2026-11-08',
+    supplier_id: 9,
+    manufacturer_name: 'AstraZeneca',
+    pill_desc: 'An antibiotic used for infections and acne treatment.',
+    status: 1
+  },
+  {
+    pill_id: 22,
+    pill_name: 'Hydrochlorothiazide',
+    quantity: 281,
+    threshold: 30,
+    price: 5.26,
+    weight: 4.44,
+    manufacture_date: '2024-07-29',
+    expiry_date: '2026-08-25',
+    supplier_id: 1,
+    manufacturer_name: 'AbbVie',
+    pill_desc: 'A diuretic used for high blood pressure and fluid retention.',
+    status: 0
+  },
+  {
+    pill_id: 23,
+    pill_name: 'Montelukast',
+    quantity: 110,
+    threshold: 35,
+    price: 10.62,
+    weight: 4.44,
+    manufacture_date: '2024-10-02',
+    expiry_date: '2025-06-22',
+    supplier_id: 13,
+    manufacturer_name: 'Amgen',
+    pill_desc: 'Used to manage asthma and allergic rhinitis.',
+    status: 1
+  },
+  {
+    pill_id: 24,
+    pill_name: 'Simvastatin',
+    quantity: 489,
+    threshold: 40,
+    price: 18.68,
+    weight: 4.44,
+    manufacture_date: '2024-09-05',
+    expiry_date: '2026-09-21',
+    supplier_id: 8,
+    manufacturer_name: 'Merck',
+    pill_desc: 'A statin for lowering cholesterol and preventing heart disease.',
+    status: 0
+  },
+  {
+    pill_id: 25,
+    pill_name: 'Enalapril',
+    quantity: 405,
+    threshold: 45,
+    price: 47.91,
+    weight: 4.44,
+    manufacture_date: '2024-08-05',
+    expiry_date: '2026-05-19',
+    supplier_id: 6,
+    manufacturer_name: 'Roche',
+    pill_desc: 'An ACE inhibitor used to manage high blood pressure and heart failure.',
+    status: 1
+  }
+]
+
+export const managerOders = [
+  {
+    order_id: 1,
+    customer_id: 6,
+    pill_id: 46,
+    order_date: '2024-11-30',
+    quantity: 1,
+    total_price: 225.66,
+    status: 'pending',
+    manufacturer_name: 'AbbVie'
+  },
+  {
+    order_id: 2,
+    customer_id: 12,
+    pill_id: 20,
+    order_date: '2024-10-14',
+    quantity: 7,
+    total_price: 203.35,
+    status: 'pending',
+    manufacturer_name: 'Roche'
+  },
+  {
+    order_id: 3,
+    customer_id: 16,
+    pill_id: 1,
+    order_date: '2024-11-05',
+    quantity: 1,
+    total_price: 101.03,
+    status: 'pending',
+    manufacturer_name: 'Amgen'
+  },
+  {
+    order_id: 4,
+    customer_id: 10,
+    pill_id: 50,
+    order_date: '2024-12-10',
+    quantity: 7,
+    total_price: 124.67,
+    status: 'completed',
+    manufacturer_name: 'Roche'
+  },
+  {
+    order_id: 5,
+    customer_id: 12,
+    pill_id: 50,
+    order_date: '2024-10-15',
+    quantity: 1,
+    total_price: 71.79,
+    status: 'completed',
+    manufacturer_name: 'Pfizer'
+  },
+  {
+    order_id: 6,
+    customer_id: 4,
+    pill_id: 21,
+    order_date: '2024-11-12',
+    quantity: 10,
+    total_price: 248.58,
+    status: 'completed',
+    manufacturer_name: 'Bayer'
+  },
+  {
+    order_id: 7,
+    customer_id: 7,
+    pill_id: 16,
+    order_date: '2024-11-29',
+    quantity: 5,
+    total_price: 94.95,
+    status: 'cancelled',
+    manufacturer_name: 'AbbVie'
+  },
+  {
+    order_id: 8,
+    customer_id: 20,
+    pill_id: 33,
+    order_date: '2024-10-18',
+    quantity: 5,
+    total_price: 290.7,
+    status: 'pending',
+    manufacturer_name: 'AbbVie'
+  },
+  {
+    order_id: 9,
+    customer_id: 1,
+    pill_id: 6,
+    order_date: '2024-11-18',
+    quantity: 7,
+    total_price: 488.6,
+    status: 'cancelled',
+    manufacturer_name: 'Bayer'
+  },
+  {
+    order_id: 10,
+    customer_id: 13,
+    pill_id: 15,
+    order_date: '2024-11-26',
+    quantity: 5,
+    total_price: 397.88,
+    status: 'cancelled',
+    manufacturer_name: 'Pfizer'
+  }
+]
+
+export const customerOrders = [
+  {
+    order_id: 1,
+    customer_id: 6,
+    pill_id: 46,
+    order_date: '2024-11-30',
+    quantity: 1,
+    total_price: 225.66,
+    status: 'pending',
+    manufacturer_name: 'AbbVie'
+  },
+  {
+    order_id: 2,
+    customer_id: 12,
+    pill_id: 20,
+    order_date: '2024-10-14',
+    quantity: 7,
+    total_price: 203.35,
+    status: 'pending',
+    manufacturer_name: 'Roche'
+  },
+  {
+    order_id: 3,
+    customer_id: 16,
+    pill_id: 1,
+    order_date: '2024-11-05',
+    quantity: 1,
+    total_price: 101.03,
+    status: 'pending',
+    manufacturer_name: 'Amgen'
+  },
+  {
+    order_id: 4,
+    customer_id: 10,
+    pill_id: 50,
+    order_date: '2024-12-10',
+    quantity: 7,
+    total_price: 124.67,
+    status: 'completed',
+    manufacturer_name: 'Roche'
+  },
+  {
+    order_id: 5,
+    customer_id: 12,
+    pill_id: 50,
+    order_date: '2024-10-15',
+    quantity: 1,
+    total_price: 71.79,
+    status: 'completed',
+    manufacturer_name: 'Pfizer'
+  },
+  {
+    order_id: 6,
+    customer_id: 4,
+    pill_id: 21,
+    order_date: '2024-11-12',
+    quantity: 10,
+    total_price: 248.58,
+    status: 'completed',
+    manufacturer_name: 'Bayer'
+  },
+  {
+    order_id: 7,
+    customer_id: 7,
+    pill_id: 16,
+    order_date: '2024-11-29',
+    quantity: 5,
+    total_price: 94.95,
+    status: 'cancelled',
+    manufacturer_name: 'AbbVie'
+  },
+  {
+    order_id: 8,
+    customer_id: 20,
+    pill_id: 33,
+    order_date: '2024-10-18',
+    quantity: 5,
+    total_price: 290.7,
+    status: 'pending',
+    manufacturer_name: 'AbbVie'
+  },
+  {
+    order_id: 9,
+    customer_id: 1,
+    pill_id: 6,
+    order_date: '2024-11-18',
+    quantity: 7,
+    total_price: 488.6,
+    status: 'cancelled',
+    manufacturer_name: 'Bayer'
+  },
+  {
+    order_id: 10,
+    customer_id: 13,
+    pill_id: 15,
+    order_date: '2024-11-26',
+    quantity: 5,
+    total_price: 397.88,
+    status: 'cancelled',
+    manufacturer_name: 'Pfizer'
+  }
+]
+
+export const managerRequests = [
+  { manager_request_id: 8, status: 'pending', pill_id: 8 },
+  { manager_request_id: 9, status: 'pending', pill_id: 9 },
+  { manager_request_id: 10, status: 'pending', pill_id: 10 },
+  { manager_request_id: 11, status: 'approved', pill_id: 11 },
+  { manager_request_id: 12, status: 'approved', pill_id: 12 },
+  { manager_request_id: 13, status: 'approved', pill_id: 13 },
+  { manager_request_id: 14, status: 'approved', pill_id: 14 },
+  { manager_request_id: 15, status: 'approved', pill_id: 15 },
+  { manager_request_id: 16, status: 'supplied', pill_id: 16 },
+  { manager_request_id: 17, status: 'supplied', pill_id: 17 },
+  { manager_request_id: 18, status: 'supplied', pill_id: 18 },
+  { manager_request_id: 19, status: 'supplied', pill_id: 19 },
+  { manager_request_id: 20, status: 'supplied', pill_id: 20 }
+]
+
+export const ownerTable = [
+  {
+    "orderId": 1,
+    "customerId": "C001",
+    "orderDate": "2023-12-01",
+    "quantity": 2,
+    "totalPrice": 20.00,
+    "status": "new"
+  },
+  {
+    "orderId": 2,
+    "customerId": "C002",
+    "orderDate": "2023-12-05",
+    "quantity": 3,
+    "totalPrice": 36.00,
+    "status": "new"
+  },
+  {
+    "orderId": 3,
+    "customerId": "C003",
+    "orderDate": "2023-12-10",
+    "quantity": 5,
+    "totalPrice": 75.00,
+    "status": "new"
+  },
+  {
+    "orderId": 4,
+    "customerId": "C004",
+    "orderDate": "2023-12-15",
+    "quantity": 1,
+    "totalPrice": 10.00,
+    "status": "new"
+  },
+  {
+    "orderId": 5,
+    "customerId": "C005",
+    "orderDate": "2023-12-20",
+    "quantity": 4,
+    "totalPrice": 40.00,
+    "status": "new"
+  },
+  {
+    "orderId": 6,
+    "customerId": "C006",
+    "orderDate": "2023-12-25",
+    "quantity": 2,
+    "totalPrice": 30.00,
+    "status": "new"
+  },
+  {
+    "orderId": 7,
+    "customerId": "C007",
+    "orderDate": "2023-12-28",
+    "quantity": 6,
+    "totalPrice": 60.00,
+    "status": "new"
+  },
+  {
+    "orderId": 8,
+    "customerId": "C008",
+    "orderDate": "2023-12-30",
+    "quantity": 3,
+    "totalPrice": 45.00,
+    "status": "new"
+  },
+  {
+    "orderId": 9,
+    "customerId": "C009",
+    "orderDate": "2023-12-02",
+    "quantity": 7,
+    "totalPrice": 70.00,
+    "status": "new"
+  },
+  {
+    "orderId": 10,
+    "customerId": "C010",
+    "orderDate": "2023-12-04",
+    "quantity": 5,
+    "totalPrice": 50.00,
+    "status": "new"
+  },
+  {
+    "orderId": 11,
+    "customerId": "C011",
+    "orderDate": "2023-12-06",
+    "quantity": 3,
+    "totalPrice": 30.00,
+    "status": "new"
+  },
+  {
+    "orderId": 12,
+    "customerId": "C012",
+    "orderDate": "2023-12-07",
+    "quantity": 2,
+    "totalPrice": 20.00,
+    "status": "new"
+  },
+  {
+    "orderId": 13,
+    "customerId": "C013",
+    "orderDate": "2023-12-08",
+    "quantity": 8,
+    "totalPrice": 80.00,
+    "status": "new"
+  },
+  {
+    "orderId": 14,
+    "customerId": "C014",
+    "orderDate": "2023-12-09",
+    "quantity": 1,
+    "totalPrice": 15.00,
+    "status": "new"
+  },
+  {
+    "orderId": 15,
+    "customerId": "C015",
+    "orderDate": "2023-12-11",
+    "quantity": 4,
+    "totalPrice": 40.00,
+    "status": "new"
+  },
+  {
+    "orderId": 16,
+    "customerId": "C016",
+    "orderDate": "2023-12-12",
+    "quantity": 6,
+    "totalPrice": 60.00,
+    "status": "new"
+  },
+  {
+    "orderId": 17,
+    "customerId": "C017",
+    "orderDate": "2023-12-13",
+    "quantity": 3,
+    "totalPrice": 36.00,
+    "status": "new"
+  },
+  {
+    "orderId": 18,
+    "customerId": "C018",
+    "orderDate": "2023-12-14",
+    "quantity": 2,
+    "totalPrice": 20.00,
+    "status": "new"
+  },
+  {
+    "orderId": 19,
+    "customerId": "C019",
+    "orderDate": "2023-12-16",
+    "quantity": 5,
+    "totalPrice": 50.00,
+    "status": "new"
+  },
+  {
+    "orderId": 20,
+    "customerId": "C020",
+    "orderDate": "2023-12-17",
+    "quantity": 4,
+    "totalPrice": 40.00,
+    "status": "new"
+  }
+]
+
+export const adminCreatePill = [
+  {
+    pill_id: 1,
+    pill_name: "Paracetamol",
+    quantity: 216,
+    threshold: 50,
+    price: 42.74,
+    weight: 4.44,
+    manufacture_date: "2024-08-26",
+    expiry_date: "2026-03-11",
+    supplier_id: 10,
+    manufacturer_name: "Pfizer",
+    pill_desc: "Used to reduce fever and alleviate mild to moderate pain.",
+    status: "pending"
+  },
+  {
+    pill_id: 2,
+    pill_name: "Ibuprofen",
+    quantity: 485,
+    threshold: 45,
+    price: 22.97,
+    weight: 4.44,
+    manufacture_date: "2024-09-04",
+    expiry_date: "2026-05-26",
+    supplier_id: 9,
+    manufacturer_name: "Roche",
+    pill_desc: "An anti-inflammatory drug used to treat pain, fever, and inflammation.",
+    status: "pending"
+  },
+  {
+    pill_id: 3,
+    pill_name: "Amoxicillin",
+    quantity: 450,
+    threshold: 40,
+    price: 21.88,
+    weight: 4.44,
+    manufacture_date: "2024-10-25",
+    expiry_date: "2026-03-20",
+    supplier_id: 10,
+    manufacturer_name: "Novartis",
+    pill_desc: "A common antibiotic used to treat bacterial infections.",
+    status: "approved"
+  },
+  {
+    pill_id: 4,
+    pill_name: "Ciprofloxacin",
+    quantity: 179,
+    threshold: 35,
+    price: 11.3,
+    weight: 4.44,
+    manufacture_date: "2024-09-30",
+    expiry_date: "2026-05-20",
+    supplier_id: 7,
+    manufacturer_name: "Bayer",
+    pill_desc: "An antibiotic used for respiratory, urinary, and gastrointestinal infections.",
+    status: "approved"
+  }
+]
