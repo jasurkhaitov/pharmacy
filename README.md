@@ -44,36 +44,6 @@ The **Pharmacy Management System** is an automated solution for managing pharmac
    - Views available medicines based on illness categories.
    - Confirms orders and completes payments.
 
-## 🔧 Installation
-
-### Prerequisites
-
-Ensure you have the following installed:
-
-- Node.js
-- Git
-
-### ⚙️ Setup Instructions
-
-1. **Clone the Repository**
-
-   ```sh
-   git clone https://github.com/yourusername/pharmacy-management.git
-   cd pharmacy-management
-   ```
-
-2. **Install Dependencies**
-
-   ```sh
-   npm i electron-vite -D
-   ```
-
-3. **Start the Application**
-
-   ```sh
-   npm run dev
-   ```
-
 ## 🎯 Usage
 
 1. **🔑 Login/Register**
@@ -81,11 +51,3 @@ Ensure you have the following installed:
 3. **🛍️ Add to Cart & Checkout**
 4. **📦 Manage Orders & Inventory (for Admins, Owners, and Managers)**
 5. **📊 Generate Reports**
-
-## 🤝 Contributing
-
-Feel free to fork this repository and submit pull requests for improvements or bug fixes.
-
-## 📜 License
-
-This project is licensed under the MIT License.
